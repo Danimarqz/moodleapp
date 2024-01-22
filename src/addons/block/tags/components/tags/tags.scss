@@ -1,0 +1,121 @@
+:host .core-block-content ::ng-deep {
+    ion-label {
+        max-width: 100%;
+    }
+    .tag_cloud {
+        ul.inline-list {
+            list-style: none;
+            margin: 0;
+            -webkit-padding-start: 0;
+
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                padding: .2em;
+
+                a {
+                    background: var(--primary);
+                    color: var(--primary-contrast);
+                    padding: 3px 8px;
+                    -webkit-font-smoothing: antialiased;
+                    display: inline-block;
+                    min-width: 10px;
+                    font-weight: bold;
+                    line-height: 1;
+                    text-align: center;
+                    white-space: nowrap;
+                    contain: content;
+                    vertical-align: baseline;
+                    text-decoration: none;
+                    border-radius: var(--radius-xs);
+                }
+                .s20 {
+                    font-size: 2.7em;
+                }
+
+                .s19 {
+                    font-size: 2.6em;
+                }
+
+                .s18 {
+                    font-size: 2.5em;
+                }
+
+                .s17 {
+                    font-size: 2.4em;
+                }
+
+                .s16 {
+                    font-size: 2.3em;
+                }
+
+                .s15 {
+                    font-size: 2.2em;
+                }
+
+                .s14 {
+                    font-size: 2.1em;
+                }
+
+                .s13 {
+                    font-size: 2em;
+                }
+
+                .s12 {
+                    font-size: 1.9em;
+                }
+
+                .s11 {
+                    font-size: 1.8em;
+                }
+
+                .s10 {
+                    font-size: 1.7em;
+                }
+
+                .s9 {
+                    font-size: 1.6em;
+                }
+
+                .s8 {
+                    font-size: 1.5em;
+                }
+
+                .s7 {
+                    font-size: 1.4em;
+                }
+
+                .s6 {
+                    font-size: 1.3em;
+                }
+
+                .s5 {
+                    font-size: 1.2em;
+                }
+
+                .s4 {
+                    font-size: 1.1em;
+                }
+
+                .s3 {
+                    font-size: 1em;
+                }
+
+                .s2 {
+                    font-size: 0.9em;
+                }
+
+                .s1 {
+                    font-size: 0.8em;
+                }
+
+                .s0 {
+                    font-size: 0.7em;
+                }
+            }
+        }
+    }
+}
