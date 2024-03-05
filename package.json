@@ -1,10 +1,10 @@
 {
-  "name": "moodlemobile",
+  "name": "atendoios",
   "version": "4.4.0",
-  "description": "The official app for Moodle.",
+  "description": "Atendo moodle app",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Daniel Marquez",
+    "email": "danimarquezbouzo@gmail.com"
   },
   "repository": {
     "type": "git",
@@ -95,7 +95,7 @@
     "@types/dom-mediacapture-record": "1.0.7",
     "chart.js": "^2.9.4",
     "cordova": "^11.0.0",
-    "cordova-android": "^11.0.0",
+    "cordova-android": "10.1.2",
     "cordova-clipboard": "^1.3.0",
     "cordova-ios": "^6.2.0",
     "cordova-plugin-add-swift-support": "^2.0.2",
@@ -189,8 +189,8 @@
   },
   "cordova": {
     "platforms": [
-      "android",
-      "ios"
+      "ios",
+      "android"
     ],
     "plugins": {
       "@moodlehq/cordova-plugin-advanced-http": {
@@ -211,7 +211,8 @@
       "@moodlehq/cordova-plugin-zip": {},
       "@moodlehq/phonegap-plugin-push": {
         "ANDROIDX_CORE_VERSION": "1.6.+",
-        "FCM_VERSION": "23.+"
+        "FCM_VERSION": "23.+",
+        "IOS_FIREBASE_MESSAGING_VERSION": "~> 8.1.1"
       },
       "cordova-clipboard": {},
       "cordova-plugin-androidx-adapter": {},

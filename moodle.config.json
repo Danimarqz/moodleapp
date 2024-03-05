@@ -1,13 +1,13 @@
 {
-    "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "app_id": "com.safeformacion.mobile",
+    "appname": "Safe Formacion",
     "versioncode": 44000,
     "versionname": "4.4.0",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
     "cache_update_frequency_rarely": 43200000,
-    "default_lang": "en",
+    "default_lang": "es",
     "languages": {
         "af": "Afrikaans",
         "ar": "العربية",
@@ -69,16 +69,6 @@
     },
     "wsservice": "moodle_mobile_app",
     "demo_sites": {
-        "student": {
-            "url": "https://school.moodledemo.net",
-            "username": "student",
-            "password": "moodle"
-        },
-        "teacher": {
-            "url": "https://school.moodledemo.net",
-            "username": "teacher",
-            "password": "moodle"
-        }
     },
     "defaultZoomLevel": "none",
     "zoomlevels": {
@@ -86,22 +76,28 @@
         "medium": 110,
         "high": 120
     },
-    "customurlscheme": "moodlemobile",
-    "sites": [],
+    "customurlscheme": "Safe",
+    "siteurl": "https://campus.safeformacion.com/",
+    "sitename": "Safe",
+    "sites": [
+    {
+        "name": "Safe",
+        "url": "https://campus.safeformacion.com/"
+    }],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
     "forcedefaultlanguage": false,
     "privacypolicy": "https://moodle.net/moodle-app-privacy/",
-    "notificoncolor": "#f98012",
+    "notificoncolor": "#C22A22",
     "enableanalytics": false,
     "enableonboarding": true,
     "forceColorScheme": "",
     "forceLoginLogo": false,
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "com.moodle.moodlemobile",
-        "ios": "id633359593"
+        "android": "com.safeformacion.mobile",
+        "ios": "id6444317645"
     },
     "wsrequestqueuelimit": 10,
     "wsrequestqueuedelay": 100,
