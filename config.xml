@@ -101,6 +101,7 @@
     <platform name="ios">
         <preference name="UseSwiftLanguageVersion" value="5" />
         <preference name="deployment-target" value="12.0" />
+        <pod name="FBLPromises" version="~&gt; 1.2.0" />
         <resource-file src="GoogleService-Info.plist" />
         <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
             <string>We need camera access to take pictures so you can attach them as part of your submissions.</string>
